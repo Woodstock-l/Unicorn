@@ -1,0 +1,22 @@
+/* Propriétés pour un affichage smartphone : si largeur max de 598px, afficher les container à 580px de largeur */
+@media (max-width : 598px){
+    .container, .container-fluid{
+        width: 580px;
+    }
+}
+
+/* Propriétés pour un affichage tablette : si largeur max de 768px, afficher les container à 750px de largeur */
+
+@media (max-width : 768px){
+    .container, .container-fluid{
+        width: 750px;
+    }
+}
+
+/* Propriétés pour un affichage petit écran : si largeur max de 992px, afficher les container à 970px de largeur */
+
+@media (max-width : 992px){
+    .container, .container-fluid{
+        width: 970px;
+    }
+}

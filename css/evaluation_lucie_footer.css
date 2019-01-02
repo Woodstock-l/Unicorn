@@ -1,0 +1,11 @@
+/* Pied-de-page : fond rose, police blanche arial */
+footer{
+    background-color: #E577B5;
+    color:#fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Marges du texte */
+footer p{
+    margin: 10px;
+}
